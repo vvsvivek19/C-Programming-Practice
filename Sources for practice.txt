@@ -1,0 +1,6 @@
+Sources include:
+1. Let Us C
+2. College PDF Questions
+3. My Sir ji's Programming questions, Output finding, pattern printing
+4. Hacker Rank C Badge
+5. GFG School, Basic and Easy level problems
