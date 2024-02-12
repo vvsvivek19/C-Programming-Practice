@@ -1,19 +1,17 @@
-//If a five-digit number is input through the keyboard, write a program to calculate the sum of its digits.
-#include <stdio.h>
-#include <stdlib.h>
-
-int main()
-{
+/*If lengths of three sides of a triangle are input through the keyboard, 
+write a program to find the area of the triangle.*/
+#include<stdio.h>
+#include<stdlib.h>
+#include<math.h>
+int main(){
     system("cls");
-    int num, sum=0, mod_num, remainder;
-    printf("Enter the number: ");
-    scanf("%d", &num);
-    for(int i=0; i<5; i++)
-    {
-        remainder = num % 10;
-        sum= sum + remainder;
-        num= num/10;
-    }
-    printf("Sum of the digits of entered five digit number is %d", sum);
+
+    float a,b,c,sp,area;
+    printf("Enter All three sides of the Triangle\n");
+    scanf("%f %f %f", &a,&b,&c);
+    sp = (a + b + c)/2;
+    area = sqrt(sp*(sp-a)*(sp-b)*(sp-c));
+    printf("Area of the triangle is: %f", area);
+
     return 0;
 }

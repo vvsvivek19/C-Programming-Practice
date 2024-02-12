@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "Let Us C"
+		},
+		{
+			"path": "Practicing Problem Solving"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"cmath": "c"
+		}
+	}
+}
