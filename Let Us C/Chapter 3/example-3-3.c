@@ -11,6 +11,7 @@ int main()
     float bs, hra=0, da=0, gs=0;
     printf("Enter the basic salary of the employee: ");
     scanf("%f", &bs);
+    
     if (bs>=1500)
     {
         hra=500;

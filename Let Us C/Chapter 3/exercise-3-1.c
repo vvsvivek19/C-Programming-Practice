@@ -17,7 +17,7 @@ int main()
     }
     else
     {
-        profit=cp-sp;
+        profit=sp-cp;
         printf("You've incurred a profit of %f", profit);
     }
     return 0;

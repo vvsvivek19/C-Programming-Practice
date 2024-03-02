@@ -8,11 +8,23 @@ int main()
     system ("cls");
     int year;
     printf("This a program to check whether the entered year is leap year or not\n");
+    printf("---------------------------------------------------------------------\n");
     printf("Enter the year you wanna check: ");
     scanf("%d", &year);
-    if (year%4==0)
-    printf("It is a Leap year");
+    if(year%100 == 0)
+    {
+        if(year%400 == 0)
+            printf("It is a Leap year");
+        else
+            printf("Not a Leap year");
+    }
     else
-    printf("Not a Leap year");
+    {
+        if (year%4==0)
+            printf("It is a Leap year");
+        else
+            printf("Not a Leap year");
+    }
+  
     return 0;
 }

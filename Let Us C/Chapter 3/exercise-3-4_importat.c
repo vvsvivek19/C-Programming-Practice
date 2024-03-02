@@ -9,13 +9,25 @@ int main()
     int yer,a, day = 0;
 	printf("Enter a year : ");
 	scanf("%d", &yer);
-	//Counting total number of days
+	//Counting total number of days from year 1 to entered year
 	for(a = 1; a < yer; a++)
 	{
-		if(a % 4 == 0) //366 days if a leap year
-			day = day + 366;
+		if(yer % 100 == 0)
+		{
+			if(yer % 400 == 0)
+				day = day + 366;
+			else
+				day = day + 365;
+
+		}
 		else
-			day = day + 365;
+		{
+			if(a % 4 == 0) //366 days if a leap year
+				day = day + 366;
+			else
+				day = day + 365;
+		}
+		
 	}
 	
 	day = day % 7;

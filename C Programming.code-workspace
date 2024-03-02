@@ -9,7 +9,8 @@
 	],
 	"settings": {
 		"files.associations": {
-			"cmath": "c"
+			"cmath": "c",
+			"random": "c"
 		}
 	}
 }
