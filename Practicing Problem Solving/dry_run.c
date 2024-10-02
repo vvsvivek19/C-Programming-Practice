@@ -3,9 +3,8 @@
 int main()
 {
     system ("cls");
-    
-    if ( 'X' < 'x' )
-        printf ( "ascii value of X is smaller than that of x\n" ) ;
-
-    return 0 ;
+    const x = 1;
+    x = x + 1;
+    printf("%d",x);
+    return 0;
 }
